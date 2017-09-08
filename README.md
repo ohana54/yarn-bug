@@ -7,9 +7,7 @@
 4. Yarn Workspaces enabled
 
 ## Steps:
-1. `yarn install` inside package-a
-2. delete node_modules from package-b
-3. `yarn install` inside package-b
+`yarn install` inside package-b
 
 webpack@1 is hoisted to `[root-folder]/node_modules`, while webpack@3 is installed in `package-a/node_modules`.
 
